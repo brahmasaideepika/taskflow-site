@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.completed span {
+  text-decoration: line-through;
+}
+
+.filters {
+  margin-top: 20px;
+}
+
+#error-message {
+  color: red;
+}
